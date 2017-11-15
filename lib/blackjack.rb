@@ -33,7 +33,7 @@ def initial_round
   return total
 end
 
-def hit?(answer)
+def hit?(total)
   puts "Type 'h' to hit or 's' to stay"
   get_user_input
   if get_user_input == "h"
