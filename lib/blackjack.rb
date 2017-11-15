@@ -35,8 +35,8 @@ end
 
 def hit?(answer)
   puts "Type 'h' to hit or 's' to stay"
-  answer = get_user_input
-  if answer == "h"
+  get_user_input
+  if get_user_input == "h"
     deal_card
   else
     display_card_total
