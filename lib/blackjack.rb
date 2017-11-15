@@ -40,6 +40,7 @@ def hit?(answer)
     deal_card
   else
     display_card_total
+  end
 end
 
 def invalid_command
