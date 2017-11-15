@@ -34,9 +34,9 @@ def initial_round
 end
 
 def hit?(answer)
-  prompt_user
+  puts "Type 'h' to hit or 's' to stay"
   answer = get_user_input
-  
+
   end
 end
 
