@@ -36,10 +36,7 @@ end
 def hit?(answer)
   prompt_user
   answer = get_user_input
-  if answer == "s"
-    display_card_total
-  else
-    deal_card
+  
   end
 end
 
