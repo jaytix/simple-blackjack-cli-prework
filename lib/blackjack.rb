@@ -35,7 +35,7 @@ end
 
 def hit?(answer)
   puts "Type 'h' to hit or 's' to stay"
-  answer = gets.chomp
+  answer = get_user_input
   if answer == "h"
     deal_card
   else
