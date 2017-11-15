@@ -36,8 +36,6 @@ end
 def hit?(answer)
   puts "Type 'h' to hit or 's' to stay"
   answer = get_user_input
-
-  end
 end
 
 def invalid_command
