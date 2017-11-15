@@ -61,5 +61,5 @@ def runner
     hit?(cardTotal)
     cardTotal+=1
   end
-  end_game
+  end_game(total)
 end
