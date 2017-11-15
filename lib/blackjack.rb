@@ -36,6 +36,10 @@ end
 def hit?(answer)
   puts "Type 'h' to hit or 's' to stay"
   answer = gets.chomp
+  if answer == "h"
+    deal_card
+  else
+    display_card_total
 end
 
 def invalid_command
